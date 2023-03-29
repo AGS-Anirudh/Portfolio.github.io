@@ -1,0 +1,295 @@
+.occupation{
+    color: #fff;
+    font-weight: 300;
+}
+#id{
+    color: crimson;
+}
+.site-name a{
+    font-family: 'Rubik', sans-serif;
+   color: #fff;
+   font-size: 35px;
+   font-weight: 600;
+}
+.site-name a span{
+    font-family: 'Rubik', sans-serif;
+    color: crimson;
+    transition: all 0.3s ease;
+}
+.nav-bar.sticky{
+    padding: 15px;
+    background-color: crimson;
+    color: #fff;
+}
+.titles{
+    color: #fff;
+}
+.nav-bar{
+    display:flex;
+    justify-content:space-around;
+    padding:15px;
+    align-items: baseline;
+    position:sticky;
+    overflow-y: none;
+    color: #fff;
+    background-color: black;
+}
+.menu ul{
+    display:flex;
+    justify-content: space space-evenly;
+    padding-top:10px;
+    font-family: 'Rubik', sans-serif;
+    margin:0;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+li{
+    padding: 0 25px;
+    list-style-type: none;
+    cursor: pointer;
+    color: #fff;
+    
+}
+.home{
+    display: flex;
+    background: url(bg-laptop.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+    min-height: 500px;
+}
+.home.max-width{
+    margin:auto 0 auto 40px;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+}
+.contact-redirect{
+    margin-top: 30px;
+}
+.contact-redirect a{
+    background-color: crimson;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+.greeting-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+.profession{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+.name-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    
+}
+.content{
+    margin-top: 80px;
+}
+
+.about-title{
+    font-family: 'Sono', sans-serif;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.about-title::before {
+    content: "";
+    position: absolute;
+    bottom:-20px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}   
+ .about-title::after{
+    content: "Who I Am";
+}
+.about-title::after{
+    position:absolute;
+    bottom:-35px;
+    left:50%;
+    font-size: 20px;
+    color: crimson;
+    padding:5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.left-box{
+    height: 500px;
+    width:fit-content;
+    
+}
+
+.left-box img{
+    height: 500px;
+    width: 400px;
+    
+    object-fit: cover;
+    border-radius: 16px;
+}
+.right-box{
+    height: 400px;
+    width: 400px;
+}
+.my-info{
+ margin-left:-200px;
+width: 600px;
+overflow :hidden;
+}
+.my-info p{
+font-size: 25px;
+width: fit-content;
+font-family: 'Kanit', sans-serif;
+font-weight: 400;
+}
+.my-info .text{
+    position: relative;
+    color: crimson;
+    font-size: 30px;
+    font-weight: 600;
+}
+.my-info .text.first-text{
+    color: #000;
+}
+.text.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:#fff;
+    border-left: 2px solid crimson;
+    animation: animate 6s steps(15) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+.about-content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#projects{
+    background-color: #000;
+}
+
+.project_info .title{
+    margin-top: 30px;
+     color: #fff;
+     font-family: 'Sono', sans-serif;
+     text-align: center;
+}
+.my_projects{
+    display: flex;
+    justify-content: space-evenly;
+}
+i{
+    color: crimson;
+}
+
+.title_pro{
+    font-family: 'Bona Nova', serif;
+    color:crimson;
+    font-size: 25px;
+    font-weight: 600;
+}
+.title_pro a{
+    text-decoration: none;
+    color: crimson;
+}
+.context{
+    color: #fff;
+    text-align: justify;
+    font-size:17px;
+    font-weight: 400;
+
+}
+.project123{
+    width: 350px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 50px;
+    box-shadow: 0px 2px 15px rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+#projects{
+    border-radius: 7px;
+}
+
+#button {
+color: #fff;
+margin-top: 5px;
+background-color: crimson;
+padding: 5px;
+font-family: 'Poppins', sans-serif;
+border-radius: 7px;
+}
+
+#button a{
+    color:#fff
+}
+
+.project123:hover{
+    background-color: crimson;
+    
+}
+
+.project123:hover i{
+    color: #fff;
+}
+.project123:hover .context{
+    color:#000;
+    font-weight: 549;
+    
+}
+.project123:hover #button {
+    background-color: #fff;
+    color: crimson;
+}
+
+.project123:hover #button a{
+    color:crimson;
+}
+.project123:hover .title_pro a{
+    
+    color: #fff;
+}
+
+
+/* scroll trigger active */
+
+.reveal{
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 3s ease;
+
+}
+
+.active{
+    transform: translateY(0);
+    opacity: 1;
+
+}
